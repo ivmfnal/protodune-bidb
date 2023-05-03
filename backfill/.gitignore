@@ -1,0 +1,6 @@
+out
+out-save
+.*
+!.gitignore
+*.bck
+*.bak

@@ -1,0 +1,7 @@
+#* * * * * /home/ivm/pdbi-collector/run_store.sh >/tmp/store.out 2>/tmp/store.err </dev/null
+
+#22 * * * * /home/ivm/pdbi-collector/run_collector.sh >/dev/null 2>/dev/null </dev/null
+
+#@hourly /home/ivm/pdbi-collector/renew_credentials.sh >/tmp/renew.out 2>&1 </dev/null
+#@reboot /home/ivm/pdbi-collector/run_ship_files.sh >/dev/null 2>/dev/null </dev/null
+
